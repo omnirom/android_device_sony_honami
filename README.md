@@ -1,2 +1,2 @@
-android_device_sony_honami
+Honami Device Tree for OmniROM
 ==========================
