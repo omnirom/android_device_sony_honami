@@ -1,1 +1,1 @@
-add_lunch_combo custom_honami-userdebug
+add_lunch_combo omni_honami-userdebug
