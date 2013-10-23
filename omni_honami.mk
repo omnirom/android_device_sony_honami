@@ -22,7 +22,7 @@ $(call inherit-product, vendor/custom/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Sony Resources
-$(call inherit-product, device/sony/common/resources-xxhdpi.mk)
+$(call inherit-product, device/sony/common/resources.mk)
 
 # Honami device
 $(call inherit-product, device/sony/honami/device.mk)
@@ -30,7 +30,7 @@ $(call inherit-product, device/sony/honami/device.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C6903 BUILD_FINGERPRINT=Sony/C6903_1276-7948/C6903:4.2.2/14.1.G.1.526/8Xl-jw:user/release-keys PRIVATE_BUILD_DESC="C6903-user 4.2.2 14.1.G.1.526 8Xl-jw test-keys"
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := custom_honami
+PRODUCT_NAME := omni_honami
 PRODUCT_DEVICE := honami
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
