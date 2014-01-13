@@ -15,7 +15,7 @@
     "remote": "github",
     "repository": "YBinnenweg/android_device_sony_qcom-common",
     "target_path": "device/sony/qcom-common",
-    "revision": "cm-11.0"
+    "revision": "android-4.4"
   },
   {
     "remote": "github",
