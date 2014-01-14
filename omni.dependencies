@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "YBinnenweg/android_kernel_sony_msm8974",
+    "repository": "CyanogenMod/android_kernel_sony_msm8974",
     "target_path": "kernel/sony/msm8974",
     "revision": "cm-11.0"
   },
@@ -13,14 +13,14 @@
   },
   {
     "remote": "github",
-    "repository": "YBinnenweg/android_device_sony_qcom-common",
+    "repository": "AOKP/device_sony_qcom-common",
     "target_path": "device/sony/qcom-common",
-    "revision": "android-4.4"
+    "revision": "kitkat"
   },
   {
     "remote": "github",
-    "repository": "YBinnenweg/android_device_sony_rhine-common",
+    "repository": "AOKP/device_sony_rhine-common",
     "target_path": "device/sony/rhine-common",
-    "revision": "android-4.4"
+    "revision": "kitkat"
   }
 ]
