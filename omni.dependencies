@@ -19,8 +19,8 @@
   },
   {
     "remote": "github",
-    "repository": "AOKP/device_sony_rhine-common",
+    "repository": "YBinnenweg/device_sony_rhine-common",
     "target_path": "device/sony/rhine-common",
-    "revision": "kitkat"
+    "revision": "android-4.4"
   }
 ]
