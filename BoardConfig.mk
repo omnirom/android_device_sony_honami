@@ -14,6 +14,7 @@
 
 include device/sony/rhine-common/BoardConfig.mk
 include device/sony/rhine-common/BoardConfigOmni.mk
+include device/sony/common/CommonConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := C6903
 
