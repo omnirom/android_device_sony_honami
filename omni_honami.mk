@@ -25,9 +25,6 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 # Inherit AOSP Rhine common device parts
 $(call inherit-product, device/sony/honami/aosp_c6903.mk)
 
-# Inherit Omni Rhine common device parts
-$(call inherit-product, device/sony/rhine-common/device_omni.mk)
-
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
