@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Kernel
-TARGET_KERNEL_SOURCE := kernel/sony/msm
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D6903,honami
 
@@ -26,6 +23,7 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 $(call inherit-product, device/sony/honami/aosp_c6903.mk)
 
 # Inherit Omni GSM telephony parts
+$(call inherit-product, device/sony/common/radio.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit Omni product configuration
