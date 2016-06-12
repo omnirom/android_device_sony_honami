@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D6903,honami
+TARGET_OTA_ASSERT_DEVICE := C6902,C6903,honami
 
 # TWRP Recovery
 DEVICE_RESOLUTION := 1080x1920
