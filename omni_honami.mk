@@ -26,9 +26,6 @@ $(call inherit-product, device/sony/honami/aosp_c6903.mk)
 $(call inherit-product, device/sony/common/radio.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-# Inherit Omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_honami
 PRODUCT_MODEL := Xperia Z1
